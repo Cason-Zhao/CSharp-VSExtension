@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesForURP", "TemplatesForURP\TemplatesForURP.csproj", "{D6F2D316-4567-46DD-A876-B027EE2D233C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{5C78E838-8474-4B09-9B9E-B4881EC70DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{5545ABDC-84C4-43C3-8A6C-8D62CF25377F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wizards", "Wizards", "{25BF6C87-54F0-44CF-898F-9554368CFE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesWizard", "TemplatesWizard\TemplatesWizard.csproj", "{646095DF-28B8-425E-8410-5C583EA431EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URP.Modules", "ProjectTemplates\URP.Modules\URP.Modules.csproj", "{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6F2D316-4567-46DD-A876-B027EE2D233C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F2D316-4567-46DD-A876-B027EE2D233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F2D316-4567-46DD-A876-B027EE2D233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F2D316-4567-46DD-A876-B027EE2D233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646095DF-28B8-425E-8410-5C583EA431EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646095DF-28B8-425E-8410-5C583EA431EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646095DF-28B8-425E-8410-5C583EA431EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646095DF-28B8-425E-8410-5C583EA431EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{646095DF-28B8-425E-8410-5C583EA431EC} = {25BF6C87-54F0-44CF-898F-9554368CFE03}
+		{0E8EF3A2-7F59-4AF6-BDD0-97F8E49CB91D} = {5C78E838-8474-4B09-9B9E-B4881EC70DF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43F0D20B-F1BD-4AFC-A010-C8F2F27E8608}
+	EndGlobalSection
+EndGlobal

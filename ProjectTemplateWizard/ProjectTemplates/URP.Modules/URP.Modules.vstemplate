@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>URP Modules</Name>
+    <Description>根据需要创建所需模块项目</Description>
+    <Icon>ProjectTemplate1.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <LanguageTag>csharp</LanguageTag>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>63240cbd-4d71-45cd-be12-555c0decfe81</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>URP</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+	<PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+	<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+	  <ProjectCollection>
+		  <ProjectTemplateLink ProjectName="$safeprojectname$.Business">
+			  URP.Business\URP.Business.vstemplate
+		  </ProjectTemplateLink>
+		  <ProjectTemplateLink ProjectName="$safeprojectname$.DalFactory">
+			  URP.DalFactory\URP.DalFactory.vstemplate
+		  </ProjectTemplateLink>
+	  </ProjectCollection>
+  </TemplateContent>
+	<WizardExtension>
+		<Assembly>TemplatesWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5d78eea23359198b, processorArchitecture=MSIL</Assembly>
+		<FullClassName>TemplatesWizard.NewProjectWizard</FullClassName>
+	</WizardExtension>
+</VSTemplate>
